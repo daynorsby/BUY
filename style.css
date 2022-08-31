@@ -156,7 +156,6 @@ section {
 
 .Offers .content{
     margin-top: 30px;
-    
 }
 
 .Offers-card {
@@ -164,18 +163,17 @@ section {
     border: 1px solid #fff;
     min-height: 14em;
     width: 23em;
-    overflow:hidden;
+    overflow: hidden;
     border-radius: 10px;
     margin: 20px;
     transition: 0.7s ease;
-   
 }
 
 .Offers-card:hover {
    transform: scale(1.1);
 }
 
-.Offers-card:hover .project-image {
+.Offers-card:hover .Offers-image {
     opacity: 0.9;
  }
 
@@ -185,15 +183,12 @@ section {
 
 .Offers-info {
     padding: 1em;
-    
 }
 
 .Offers-category {
     font-size: 0.8em;
     color: #000;
-   
 }
-
 
 .Offers-title {
     display: flex;
@@ -201,88 +196,100 @@ section {
     text-transform: uppercase;
     font-weight: 800;
     margin-top: 10px;
-    
 }
-.button {
-    text-decoration: none;
-    color: #0a49f6;
-    text-transform: 700%;
-    font-size: 1.8em;
 
-}
-.contact-now {
+.more-details {
     text-decoration: none;
     color: #3a6cf4;
-    text-transform: 700%;
-    font-size: 1.8em;
-
-}
-.Offers-title{
-    text-decoration:white;
-    text-decoration: white;
-
 }
 
- .contact-now:hover{  
-     color: blue;
+.more-details:hover {
+    color: #601cfc;
 }
 
 .contact .icon{
     font-size: 4.5em;
-    position:center center;
 }
 
 .contact .info h3 {
-    color: black;
-    text-decoration: white;
+    color: #000;
 }
 
 .contact .info p {
     font-size: 1.5em;
-    text-decoration: white;
+}
+
+.footer {
+    background-color: #000016;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span {
+    color: #3a6cf4;
+}
+
+.footer .social-icons a{
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
 }
 
 @media (max-width:1023px){
     header{
         padding: 12px 20px;
     }
-    .navigation{
-        padding: 10px;
+
+    .navigation a{
+        padding-left: 10px;
     }
+
     .title{
         font-size: 1.8em;
-      }
-      section{
-        padding: 80px 20px;
-      }
-.main-content h2{
-    font-size: 1em;
-}
-    .main-content h3{
-         font-size: 1.6em;
     }
+
+    section{
+        padding: 80px 20px;
+    }
+
+    .main-content h2{
+        font-size: 1em;
+    }
+
+    .main-content h3{
+        font-size: 1.6em;
+    }
+
     .content{
         flex-direction: column;
         align-items: center;
     }
 
 }
+
 @media (max-width:641px){
     body{
         font-size: 12px;
-        
     }
 
     .main-content h2{
-        font-size: 1.4em;
+        font-size: 0.8em;
+    }
 
+    .main-content h3{
+        font-size: 1.4em;
     }
 }
-@media(max-width:300px){
+
+@media (max-width:300px){
     body{
         font-size: 10px;
-
+     
     }
-
 }
-
